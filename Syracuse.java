@@ -7,7 +7,7 @@ public class Syracuse
         int n = Integer.parseInt(args[0]);
         try
         {
-            FileWriter fw = new FileWriter(args[1]);
+            FileWriter fw = new FileWriter(args[2]);
             BufferedWriter bw = new BufferedWriter(fw);
             bw.write("n Un");
             bw.newLine();
